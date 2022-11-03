@@ -1,0 +1,30 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.pika {
+  position: absolute;
+  bottom: auto;
+  width: 10%;
+  margin-top: -50px;
+  animation: pika-pika 10s normal infinite ease-in-out;
+  mix-blend-mode: darken;
+
+}
+
+@keyframes pika-pika {
+  from{right:0px}
+  to{right:100%}
+}
